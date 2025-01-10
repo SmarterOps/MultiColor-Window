@@ -51,7 +51,7 @@ MultiColorWindow/
   Update the Tailwind CSS classes in the `index.html` file to modify the button's appearance.
 
 ## Preview
-![MultiColor Window Preview](<Screenshot 2025-01-10 141437.png>)
+![alt text](preview.png)
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
