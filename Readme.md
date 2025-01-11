@@ -60,7 +60,7 @@ MultiColorWindow/
   You can enhance the `script.js` file to add additional interactivity, such as displaying the selected color name dynamically.
 
 ## Preview
-![alt text](MultiColor-Window/preview.png)
+![alt text](preview.png)
 
 ## License
 This project is open-source and available under the [MIT License](MultiColor-Window/LICENSE).
