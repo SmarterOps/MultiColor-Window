@@ -11,6 +11,7 @@ This project demonstrates a simple interactive webpage that dynamically changes 
 - **HTML5**: For the structure and content of the webpage.
 - **Tailwind CSS**: For responsive and modern styling.
 - **JavaScript**: For implementing the dynamic color-changing functionality.
+- **JSON**: For dynamically fetching colors from an external file.
 
 ## Project Structure
 ```
@@ -18,6 +19,7 @@ MultiColorWindow/
 │
 ├── index.html        # Main HTML file containing the structure of the webpage
 ├── script.js         # JavaScript file with the logic for dynamic color changes
+├── colors.json       # JSON file containing an array of colors
 ├── icons/
 │   └── icon.png      # Favicon for the webpage
 └── README.md         # Documentation of the project
@@ -39,22 +41,29 @@ MultiColorWindow/
 
 ## Customization
 - **Adding More Colors**:
-  You can expand the color palette by adding more colors to the `colors` array in the `script.js` file.
-  ```javascript
-  const colors = [
-    'AliceBlue',
-    'AntiqueWhite',
-    // Add your custom colors here
-  ];
+  Add new colors to the `colors.json` file:
+  ```json
+  {
+    "colors": [
+      "AliceBlue",
+      "AntiqueWhite",
+      "#123456",
+      "#abcdef"
+    ]
+  }
   ```
+
 - **Styling the Button**:
   Update the Tailwind CSS classes in the `index.html` file to modify the button's appearance.
 
+- **JavaScript Enhancements**:
+  You can enhance the `script.js` file to add additional interactivity, such as displaying the selected color name dynamically.
+
 ## Preview
-![alt text](preview.png)
+![alt text](MultiColor-Window/preview.png)
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](MultiColor-Window/LICENSE).
 
 ## Contributing
 Feel free to fork the repository and submit pull requests to enhance the project.
