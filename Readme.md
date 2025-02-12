@@ -63,7 +63,7 @@ MultiColorWindow/
 
 ## Preview
 
-![alt text](MultiColor-Window/preview.png)
+![alt text](preview.png)
 
 ## License
 
